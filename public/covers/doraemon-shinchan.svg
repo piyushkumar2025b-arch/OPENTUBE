@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+    <defs>
+      <linearGradient id="ds-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0284c7"/>
+        <stop offset="50%" stop-color="#0ea5e9"/>
+        <stop offset="100%" stop-color="#dc2626"/>
+      </linearGradient>
+    </defs>
+    <rect width="640" height="360" fill="url(#ds-bg)"/>
+
+    <!-- Top Badges -->
+    <rect x="24" y="20" width="145" height="24" rx="4" fill="#facc15"/>
+    <text x="96" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#000000" letter-spacing="1">📡 SATELLITE TV</text>
+
+    <rect x="490" y="20" width="125" height="24" rx="4" fill="#000000"/>
+    <text x="552" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" letter-spacing="1">ANIME 24x7</text>
+
+    <!-- Plate -->
+    <g transform="translate(320, 130)">
+      <rect x="-160" y="-55" width="320" height="110" rx="16" fill="#ffffff" stroke="#0284c7" stroke-width="4" filter="drop-shadow(0 10px 20px rgba(0,0,0,0.5))"/>
+      <text x="0" y="2" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-weight="900" font-size="34" fill="#0284c7" letter-spacing="1">DORAEMON &amp; SHINCHAN</text>
+      <text x="0" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="16" fill="#dc2626" letter-spacing="4">24/7 KIDS TOON BROADCAST</text>
+    </g>
+
+    <text x="320" y="240" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="17" fill="#ffffff" letter-spacing="2">NOBITA • GADGETS • SHINCHAN KASUKABE DEFENSE</text>
+    <text x="320" y="268" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="13" fill="#fef08a" letter-spacing="1">HINDI DUBBED JAPANESE ANIME &amp; ANIMATION MARATHON</text>
+
+    <rect x="0" y="350" width="320" height="10" fill="#0284c7"/>
+    <rect x="320" y="350" width="320" height="10" fill="#dc2626"/>
+  </svg>

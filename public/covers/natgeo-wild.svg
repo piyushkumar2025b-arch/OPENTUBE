@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+    <defs>
+      <linearGradient id="ng-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#022c22"/>
+        <stop offset="40%" stop-color="#064e3b"/>
+        <stop offset="80%" stop-color="#021f17"/>
+        <stop offset="100%" stop-color="#000000"/>
+      </linearGradient>
+      <linearGradient id="ng-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#facc15"/>
+        <stop offset="100%" stop-color="#eab308"/>
+      </linearGradient>
+    </defs>
+    <rect width="640" height="360" fill="url(#ng-bg)"/>
+
+    <!-- Wildlife Nature Silhouette / Foliage Accents -->
+    <g opacity="0.15" fill="#10b981">
+      <path d="M0,360 L0,260 Q80,220 160,250 T320,220 T480,250 T640,230 L640,360 Z"/>
+    </g>
+
+    <!-- Top Badges -->
+    <rect x="24" y="20" width="145" height="24" rx="4" fill="#eab308"/>
+    <text x="96" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#000000" letter-spacing="1">📡 SATELLITE TV</text>
+
+    <rect x="495" y="20" width="120" height="24" rx="4" fill="rgba(255,255,255,0.15)"/>
+    <circle cx="510" cy="32" r="4" fill="#22c55e"/>
+    <text x="562" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" letter-spacing="1">LIVE 1080p</text>
+
+    <!-- Center Iconic Yellow Frame & NatGeo Logo -->
+    <g transform="translate(140, 130)">
+      <!-- The Iconic Yellow Border Rectangle -->
+      <rect x="0" y="-45" width="55" height="85" fill="none" stroke="#facc15" stroke-width="12" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.7))"/>
+      
+      <!-- Typography -->
+      <g transform="translate(80, 0)">
+        <text x="0" y="-12" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#ffffff" letter-spacing="4">NATIONAL</text>
+        <text x="0" y="22" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#ffffff" letter-spacing="4">GEOGRAPHIC</text>
+        <text x="0" y="52" font-family="sans-serif" font-weight="900" font-size="16" fill="#facc15" letter-spacing="6">WILD &amp; NATURE HD</text>
+      </g>
+    </g>
+
+    <!-- Taglines -->
+    <text x="320" y="260" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="16" fill="#6ee7b7" letter-spacing="2">24/7 EARTH EXPLORATION • WILDLIFE &amp; OCEAN SAFARIS</text>
+    <text x="320" y="285" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="12" fill="#a7f3d0" letter-spacing="1">EXPEDITIONS • NATURAL PHENOMENA • 1080p SATELLITE PLAYOUT</text>
+
+    <!-- Bottom Accent Line -->
+    <rect x="0" y="352" width="640" height="8" fill="#facc15"/>
+  </svg>

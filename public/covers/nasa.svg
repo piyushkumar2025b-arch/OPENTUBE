@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+    <defs>
+      <linearGradient id="nasa-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#050814"/>
+        <stop offset="50%" stop-color="#0b132b"/>
+        <stop offset="100%" stop-color="#02040a"/>
+      </linearGradient>
+    </defs>
+    <rect width="640" height="360" fill="url(#nasa-bg)"/>
+    <!-- Stars -->
+    <g fill="#ffffff" opacity="0.4">
+      <circle cx="80" cy="60" r="1.5"/><circle cx="180" cy="90" r="1"/><circle cx="280" cy="40" r="2"/>
+      <circle cx="480" cy="70" r="1.5"/><circle cx="560" cy="110" r="1"/><circle cx="390" cy="80" r="1"/>
+    </g>
+    <!-- Top Badges -->
+    <rect x="24" y="20" width="145" height="24" rx="4" fill="#0284c7"/>
+    <text x="96" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" letter-spacing="1">📡 SATELLITE TV</text>
+    <rect x="495" y="20" width="120" height="24" rx="4" fill="rgba(255,255,255,0.2)"/>
+    <text x="555" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF">ISS LIVE 4K</text>
+    <!-- NASA Meatball Insignia -->
+    <g transform="translate(320, 130)">
+      <circle cx="0" cy="0" r="50" fill="#0b3d91" stroke="#ffffff" stroke-width="3" filter="drop-shadow(0 6px 20px rgba(0,0,0,0.7))"/>
+      <path d="M -45,15 Q 0,-30 45,15" fill="none" stroke="#fc3d21" stroke-width="4"/>
+      <text x="0" y="12" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="28" fill="#ffffff" letter-spacing="2">NASA</text>
+    </g>
+    <text x="320" y="225" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="30" fill="#ffffff" letter-spacing="3">NASA TV MEDIA HD</text>
+    <text x="320" y="255" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="15" fill="#38bdf8" letter-spacing="4">LIVE SATELLITE &amp; ISS SPACE FEED</text>
+    <text x="320" y="285" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="12" fill="#94a3b8" letter-spacing="1">ORBITAL EXPEDITIONS • ROCKET LAUNCHES • SPACEWALKS</text>
+    <rect x="0" y="352" width="640" height="8" fill="#fc3d21"/>
+  </svg>

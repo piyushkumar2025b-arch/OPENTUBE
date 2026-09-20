@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+    <defs>
+      <linearGradient id="dw-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0c4a6e"/>
+        <stop offset="50%" stop-color="#0369a1"/>
+        <stop offset="100%" stop-color="#082f49"/>
+      </linearGradient>
+    </defs>
+    <rect width="640" height="360" fill="url(#dw-bg)"/>
+
+    <!-- Top Badges -->
+    <rect x="24" y="20" width="145" height="24" rx="4" fill="#38bdf8"/>
+    <text x="96" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#000000" letter-spacing="1">📡 SATELLITE TV</text>
+
+    <rect x="495" y="20" width="120" height="24" rx="4" fill="rgba(255,255,255,0.2)"/>
+    <text x="555" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF">1080p HD</text>
+
+    <!-- DW Square Logo & Typography -->
+    <g transform="translate(320, 130)">
+      <rect x="-140" y="-45" width="80" height="80" rx="8" fill="#ffffff" filter="drop-shadow(0 6px 16px rgba(0,0,0,0.5))"/>
+      <text x="-100" y="14" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="44" fill="#0284c7">DW</text>
+      
+      <g transform="translate(-40, 0)">
+        <text x="0" y="-8" font-family="sans-serif" font-weight="900" font-size="28" fill="#ffffff" letter-spacing="2">DOCUMENTARY</text>
+        <text x="0" y="22" font-family="sans-serif" font-weight="700" font-size="15" fill="#bae6fd" letter-spacing="4">DEUTSCHE WELLE 24/7</text>
+      </g>
+    </g>
+
+    <text x="320" y="240" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="17" fill="#ffffff" letter-spacing="2">GLOBAL INVESTIGATIONS • SCIENCE &amp; HUMAN STORIES</text>
+    <text x="320" y="268" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="13" fill="#e0f2fe" letter-spacing="1">AWARD-WINNING INTERNATIONAL DOCUMENTARY BROADCAST</text>
+
+    <rect x="0" y="352" width="640" height="8" fill="#38bdf8"/>
+  </svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+    <defs>
+      <linearGradient id="bl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#09090b"/>
+        <stop offset="50%" stop-color="#18181b"/>
+        <stop offset="100%" stop-color="#000000"/>
+      </linearGradient>
+    </defs>
+    <rect width="640" height="360" fill="url(#bl-bg)"/>
+    <!-- Top Badges -->
+    <rect x="24" y="20" width="145" height="24" rx="4" fill="#3b82f6"/>
+    <text x="96" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" letter-spacing="1">📡 SATELLITE TV</text>
+    <rect x="495" y="20" width="120" height="24" rx="4" fill="rgba(255,255,255,0.2)"/>
+    <text x="555" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF">FINANCE 24/7</text>
+    <!-- Bloomberg Typography -->
+    <g transform="translate(320, 130)">
+      <rect x="-160" y="-45" width="320" height="90" rx="8" fill="#18181b" stroke="#3b82f6" stroke-width="2"/>
+      <text x="0" y="14" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="38" fill="#ffffff" letter-spacing="2">Bloomberg</text>
+      <text x="0" y="34" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="14" fill="#60a5fa" letter-spacing="5">TELEVISION HD</text>
+    </g>
+    <text x="320" y="235" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="18" fill="#ffffff" letter-spacing="2">GLOBAL MARKETS • WALL STREET • ECONOMICS</text>
+    <text x="320" y="265" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="13" fill="#a1a1aa" letter-spacing="1">24/7 GLOBAL FINANCIAL NETWORK SATELLITE BROADCAST</text>
+    <rect x="0" y="352" width="640" height="8" fill="#3b82f6"/>
+  </svg>

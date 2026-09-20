@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07112c"/>
+      <stop offset="50%" stop-color="#0f2042"/>
+      <stop offset="100%" stop-color="#050a18"/>
+    </linearGradient>
+    <linearGradient id="tri" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9933"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#138808"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#1e40af" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#07112c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <rect width="640" height="360" fill="url(#glow)"/>
+  
+  <!-- Subtle satellite grid pattern -->
+  <g opacity="0.1" stroke="#60a5fa" stroke-width="1">
+    <circle cx="320" cy="150" r="80" fill="none"/>
+    <circle cx="320" cy="150" r="140" fill="none"/>
+    <circle cx="320" cy="150" r="200" fill="none"/>
+    <line x1="0" y1="150" x2="640" y2="150"/>
+    <line x1="320" y1="0" x2="320" y2="300"/>
+  </g>
+
+  <!-- Doordarshan Iconic Eye Symbol -->
+  <g transform="translate(320, 135) scale(1.1)">
+    <!-- Outer orange curve -->
+    <path d="M -50,0 C -50,-35 0,-55 35,-35 C 20,-20 15,-10 15,0 C 15,25 -20,40 -50,0 Z" fill="#FF7700" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.5))"/>
+    <!-- Inner blue eye & pupil -->
+    <path d="M 50,0 C 50,35 0,55 -35,35 C -20,20 -15,10 -15,0 C -15,-25 20,-40 50,0 Z" fill="#0284c7" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.5))"/>
+    <circle cx="0" cy="0" r="14" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="9" fill="#07112c"/>
+    <circle cx="2" cy="-2" r="3" fill="#38bdf8"/>
+  </g>
+
+  <!-- DD National Typography -->
+  <text x="320" y="225" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="2">DD NATIONAL</text>
+  <text x="320" y="250" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="14" fill="#fbbf24" letter-spacing="4">दूरदर्शन • 1080p SATELLITE HD</text>
+  
+  <!-- Tricolor Accent Line -->
+  <rect x="180" y="265" width="280" height="4" rx="2" fill="url(#tri)"/>
+  
+  <!-- Top Broadcast Bar -->
+  <rect x="20" y="20" width="135" height="24" rx="4" fill="#FF7700"/>
+  <text x="87" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" letter-spacing="1">📡 SATELLITE TV</text>
+
+  <rect x="495" y="20" width="125" height="24" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <text x="557" y="36" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="11" fill="#FFFFFF">LIVE BROADCAST</text>
+
+  <!-- Bottom Tag -->
+  <text x="320" y="315" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="11" fill="#94a3b8" letter-spacing="1">INDIA’S FLAGSHIP PUBLIC BROADCASTER • 24/7 SATELLITE FEED</text>
+</svg>

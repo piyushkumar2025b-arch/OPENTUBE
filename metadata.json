@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix OpenTube",
+  "description": "Universal open media search engine & aggregator with 30+ video sources: YouTube, Dailymotion, PeerTube, Coverr 4K stock, Sci-Fi & Horror Vault, Silent Film Masters, Classic Cartoons, MIT STEM Lectures, TED Talks, NASA, Wildlife & Nature, Historic Sports, Live TV, and World Radio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

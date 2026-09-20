@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+    <defs>
+      <linearGradient id="ns-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#065f46"/>
+        <stop offset="50%" stop-color="#047857"/>
+        <stop offset="100%" stop-color="#022c22"/>
+      </linearGradient>
+    </defs>
+    <rect width="640" height="360" fill="url(#ns-bg)"/>
+
+    <!-- Top Badges -->
+    <rect x="24" y="20" width="145" height="24" rx="4" fill="#34d399"/>
+    <text x="96" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#000000" letter-spacing="1">📡 SATELLITE TV</text>
+
+    <rect x="480" y="20" width="135" height="24" rx="4" fill="rgba(255,255,255,0.2)"/>
+    <text x="547" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF">4K / 1080p FEED</text>
+
+    <!-- Mountain & Earth Silhouette -->
+    <g opacity="0.25" fill="#a7f3d0">
+      <polygon points="120,240 220,130 320,240"/>
+      <polygon points="260,240 380,100 500,240"/>
+    </g>
+
+    <text x="320" y="145" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="40" fill="#ffffff" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.6))" letter-spacing="4">NATURESCAPE HD</text>
+    <text x="320" y="180" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="18" fill="#6ee7b7" letter-spacing="5">EARTH &amp; WILDLIFE SATELLITE</text>
+
+    <text x="320" y="240" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="16" fill="#ffffff" letter-spacing="2">24/7 RELAXING WILDLIFE, FORESTS &amp; OCEAN LANDSCAPES</text>
+    <text x="320" y="268" text-anchor="middle" font-family="sans-serif" font-weight="600" font-size="13" fill="#d1fae5" letter-spacing="1">IMMERSIVE AMBIENT AUDIO • DIRECT LIVE SATELLITE PLAYS</text>
+
+    <rect x="0" y="352" width="640" height="8" fill="#34d399"/>
+  </svg>

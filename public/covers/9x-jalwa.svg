@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+    <defs>
+      <linearGradient id="jalwa-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#831843"/>
+        <stop offset="50%" stop-color="#c026d3"/>
+        <stop offset="100%" stop-color="#4a044e"/>
+      </linearGradient>
+      <linearGradient id="j-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#facc15"/>
+        <stop offset="100%" stop-color="#f59e0b"/>
+      </linearGradient>
+    </defs>
+    <rect width="640" height="360" fill="url(#jalwa-bg)"/>
+
+    <!-- Neon light rays -->
+    <polygon points="320,0 200,360 440,360" fill="#f43f5e" opacity="0.15"/>
+
+    <!-- Top Badges -->
+    <rect x="24" y="20" width="145" height="24" rx="4" fill="#f43f5e"/>
+    <text x="96" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" letter-spacing="1">📡 SATELLITE TV</text>
+
+    <rect x="475" y="20" width="140" height="24" rx="4" fill="#facc15"/>
+    <text x="545" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#000000" letter-spacing="1">BOLLYWOOD MUSIC</text>
+
+    <!-- 9X Jalwa Logo -->
+    <g transform="translate(320, 130)">
+      <rect x="-140" y="-50" width="280" height="100" rx="16" fill="#1e1b4b" stroke="url(#j-gold)" stroke-width="4" filter="drop-shadow(0 8px 24px rgba(0,0,0,0.7))"/>
+      <text x="-50" y="16" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="52" fill="#f43f5e" letter-spacing="-2">9X</text>
+      <text x="45" y="16" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-weight="900" font-size="44" fill="url(#j-gold)" letter-spacing="2">JALWA</text>
+    </g>
+
+    <text x="320" y="235" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="20" fill="url(#j-gold)" letter-spacing="3">FOREVER BOLLYWOOD HITS 24x7</text>
+    <text x="320" y="265" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="13" fill="#fbcfe8" letter-spacing="1">TIMELESS CLASSIC HINDI FILM SONGS &amp; RETRO POP HITS</text>
+
+    <rect x="0" y="352" width="640" height="8" fill="url(#j-gold)"/>
+  </svg>

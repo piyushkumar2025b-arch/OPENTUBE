@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+    <defs>
+      <linearGradient id="cb-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#15803d"/>
+        <stop offset="50%" stop-color="#16a34a"/>
+        <stop offset="100%" stop-color="#064e3b"/>
+      </linearGradient>
+    </defs>
+    <rect width="640" height="360" fill="url(#cb-bg)"/>
+
+    <!-- Top Badges -->
+    <rect x="24" y="20" width="145" height="24" rx="4" fill="#f59e0b"/>
+    <text x="96" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#000000" letter-spacing="1">📡 SATELLITE TV</text>
+
+    <rect x="480" y="20" width="135" height="24" rx="4" fill="#b91c1c"/>
+    <text x="547" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" letter-spacing="1">DHOLAKPUR 24/7</text>
+
+    <!-- Chhota Bheem Plate -->
+    <g transform="translate(320, 130)">
+      <rect x="-140" y="-55" width="280" height="110" rx="16" fill="#fef08a" stroke="#d97706" stroke-width="4" filter="drop-shadow(0 10px 20px rgba(0,0,0,0.5))"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-weight="900" font-size="42" fill="#b91c1c" letter-spacing="2">CHHOTA BHEEM</text>
+      <text x="0" y="36" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="16" fill="#15803d" letter-spacing="3">&amp; FRIENDS 24/7</text>
+    </g>
+
+    <text x="320" y="240" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="18" fill="#ffffff" letter-spacing="2">LADDOO POWER • CHUTKI • RAJU • JAGGU</text>
+    <text x="320" y="268" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="13" fill="#dcfce7" letter-spacing="1">OFFICIAL GREEN GOLD ANIMATION • POGO TV BROADCAST</text>
+
+    <rect x="0" y="350" width="640" height="10" fill="#f59e0b"/>
+  </svg>
